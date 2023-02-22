@@ -22,7 +22,9 @@ const numbers2 = [3, 5, 10, 15, 21, 25, 30, 11, undefined];
 
 const numsDividedFiveThree = (array) => { 
     array.forEach((el) => {
+        //safety check
         if ( typeof el !== 'number')return;
+        
         if (el % 5 == 0 || el % 3 == 0) {
             if(el % 5 === 0 && el % 3 === 0){
                 console.log("**FizzBuzz**")

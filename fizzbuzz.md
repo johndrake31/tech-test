@@ -24,6 +24,3 @@ Display numbers between **1** and **N** by following the rules:
 - Quality of the code
 - Scalability of the algorithm
 - Usage of good practices and modern programming language features
-
-
-const numbers = []
